@@ -1,6 +1,13 @@
 #Greenfoot project file
 class.ant.image=ant3.png
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+class.bee.image=bee.png
+>>>>>>> 64868eb138ff8948866c0ba7243673c9f4fad7e2
+>>>>>>> 86b528cafb4c419da9907fdd77451788d2c6ca25
 =======
 class.camel.image=camel.png
 >>>>>>> 15a35e714735ea649bea625f3a3bb5a5920b92d9
@@ -31,6 +38,9 @@ target1.height=70
 target1.name=bee
 =======
 target1.height=50
+<<<<<<< HEAD
+target1.name=bee
+=======
 target1.name=maru
 >>>>>>> 15a35e714735ea649bea625f3a3bb5a5920b92d9
 target1.showInterface=false
