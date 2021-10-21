@@ -15,6 +15,7 @@ public class ant extends Actor
     public void act()
     {
         if( Greenfoot.isKeyDown( "right" ) ){
+<<<<<<< HEAD
             setRotation(0);
             move(1);
             <<<<<<< HEAD
@@ -33,3 +34,21 @@ public class ant extends Actor
                 }// Add your action code here.
             }
         }
+=======
+        setRotation(0);
+        move(1);
+    }
+        if( Greenfoot.isKeyDown( "up" ) ){
+        setRotation(90);
+        move(1);
+        }
+
+        
+        if( Greenfoot.isKeyDown( "left" ) ){
+        setRotation(180);
+        move(1);
+
+}// Add your action code here.
+    }
+}
+>>>>>>> 58237c48997336c9204d0328ffc960260a1837e1
