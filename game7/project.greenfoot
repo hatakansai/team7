@@ -1,11 +1,6 @@
 #Greenfoot project file
-class.Bee.image=bee.png
 class.ant.image=ant3.png
-<<<<<<< HEAD
-class.bee.image=bee.png
-=======
 class.maru.image=wombat.png
->>>>>>> d31e33a43a8ae7dc0144d8472ae06835e606dc18
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
@@ -28,15 +23,7 @@ readme.x=10
 readme.y=10
 simulation.speed=50
 target1.height=50
-<<<<<<< HEAD
-target1.name=bee
-=======
-<<<<<<< HEAD
-target1.name=Bee
-=======
 target1.name=maru
->>>>>>> d20fd6558c7744ebac2d163c3512b2a2f726e831
->>>>>>> d31e33a43a8ae7dc0144d8472ae06835e606dc18
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=80
