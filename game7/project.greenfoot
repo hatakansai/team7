@@ -5,8 +5,23 @@ class.camel.image=camel.png
 class.maru.image=wombat.png
 editor.fx.0.height=739
 editor.fx.0.width=816
+<<<<<<< HEAD
 editor.fx.0.x=552
 editor.fx.0.y=100
+=======
+<<<<<<< HEAD
+editor.fx.0.x=152
+editor.fx.0.y=100
+=======
+<<<<<<< HEAD
+editor.fx.0.x=758
+editor.fx.0.y=102
+=======
+editor.fx.0.x=552
+editor.fx.0.y=100
+>>>>>>> 63cc7f92c1b90018ff29e231b02dac66666b80c2
+>>>>>>> 2f96c87e8664ad027172d36ed36201545ce18a2f
+>>>>>>> 3a9a52658910cf459440030787ff8feb6b9033dd
 height=585
 package.numDependencies=0
 package.numTargets=5
@@ -28,14 +43,14 @@ target1.height=50
 target1.name=Bee
 target1.showInterface=false
 target1.type=ClassTarget
-target1.width=120
+target1.width=80
 target1.x=0
 target1.y=0
-target2.height=50
+target2.height=70
 target2.name=maru
 target2.showInterface=false
 target2.type=ClassTarget
-target2.width=80
+target2.width=120
 target2.x=0
 target2.y=0
 target3.height=50
@@ -62,5 +77,5 @@ target5.y=0
 version=3.0.0
 width=825
 world.lastInstantiated=MyWorld
-xPosition=592
-yPosition=149
+xPosition=835
+yPosition=176
