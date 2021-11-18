@@ -15,9 +15,9 @@ public class MyWorld extends World
      */
     public MyWorld()
     {    
-        super(1400, 810, 1); 
+        super(800, 815, 1); 
         addObject(new TARO(),55,50); 
-        addObject(new squid(),1300,750); 
+        addObject(new squid(),700,750); 
         
         for(int i = 0 ; i < 5  ; i++){  
 
