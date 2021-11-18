@@ -14,9 +14,11 @@ public class start_button extends Actor
      */
     public void act() 
     {
-        GreenfootImage image = getImage();
-        image.scale(image.getWidth() + 50, image.getHeight() + 50);
-        setImage(image);
-        // Add your action code here.
+      if (Greenfoot.mouseClicked(this))
+ 
+{
+Greenfoot.setWorld(new MyWorld());
+}
+        
     }    
 }
