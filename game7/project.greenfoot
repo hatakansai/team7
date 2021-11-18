@@ -1,5 +1,6 @@
 #Greenfoot project file
 class.Bee.image=bee.png
+class.MyWorld.image=map\ (1).png
 class.TARO.image=sumo_rikishi_harite2.png
 class.ant.image=ant3.png
 class.camel.image=camel.png
@@ -25,9 +26,9 @@ dependency5.to=squid
 dependency5.type=UsesDependency
 editor.fx.0.height=739
 editor.fx.0.width=816
-editor.fx.0.x=552
-editor.fx.0.y=100
-height=698
+editor.fx.0.x=579
+editor.fx.0.y=146
+height=1056
 package.numDependencies=5
 package.numTargets=10
 project.charset=UTF-8
@@ -115,7 +116,14 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
 width=828
 world.lastInstantiated=start
 xPosition=1053
 yPosition=108
+=======
+width=1936
+world.lastInstantiated=MyWorld
+xPosition=0
+yPosition=0
+>>>>>>> 4522af71fd1fca55438e9c626135e9f318fd2014
