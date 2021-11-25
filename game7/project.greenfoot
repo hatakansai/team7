@@ -10,7 +10,10 @@ class.maru.image=wombat.png
 class.squid.image=character_fish_ika.png
 class.start.image=dohyo.jpeg
 class.start_button.image=yellow-draught.png
+<<<<<<< HEAD
+=======
 class.wall.image=wall.png
+>>>>>>> 82da0b1f2e3bef478fd2292bdc39ecb39a1654d4
 dependency1.from=start
 dependency1.to=start_button
 dependency1.type=UsesDependency
@@ -29,8 +32,13 @@ dependency3.type=UsesDependency
 dependency4.from=Hokkaido
 dependency4.to=wall
 dependency4.type=UsesDependency
+<<<<<<< HEAD
+dependency5.from=start_button
+dependency5.to=MyWorld
+=======
 dependency5.from=Hokkaido
 dependency5.to=esa1
+>>>>>>> 82da0b1f2e3bef478fd2292bdc39ecb39a1654d4
 dependency5.type=UsesDependency
 dependency6.from=MyWorld
 dependency6.to=TARO
@@ -38,6 +46,15 @@ dependency6.type=UsesDependency
 dependency7.from=MyWorld
 dependency7.to=squid
 dependency7.type=UsesDependency
+<<<<<<< HEAD
+editor.fx.0.height=739
+editor.fx.0.width=814
+editor.fx.0.x=579
+editor.fx.0.y=146
+height=1056
+package.numDependencies=7
+package.numTargets=11
+=======
 dependency8.from=MyWorld
 dependency8.to=esa1
 dependency8.type=UsesDependency
@@ -51,6 +68,7 @@ editor.fx.0.y=100
 height=1056
 package.numDependencies=11
 package.numTargets=13
+>>>>>>> 82da0b1f2e3bef478fd2292bdc39ecb39a1654d4
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -80,7 +98,11 @@ target10.width=90
 target10.x=0
 target10.y=0
 target11.height=50
+<<<<<<< HEAD
+target11.name=MyWorld
+=======
 target11.name=squid
+>>>>>>> 82da0b1f2e3bef478fd2292bdc39ecb39a1654d4
 target11.showInterface=false
 target11.type=ClassTarget
 target11.width=80
