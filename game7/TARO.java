@@ -97,9 +97,14 @@ public class TARO extends Actor
             getWorld().removeObject(boss);
             
             }  
-
+            
+                Actor wall = getOneIntersectingObject( wall.class );
+        if( wall!= null ){ 
+            setLocation(x,y); 
+         
         } 
 
     } 
+}
 
  

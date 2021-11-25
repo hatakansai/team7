@@ -19,6 +19,7 @@ public class MyWorld extends World
         addObject(new TARO(),55,50); 
         addObject(new squid(),700,750); 
         
+        
         for(int i = 0 ; i < 5  ; i++){  
 
         int A = 0; 
