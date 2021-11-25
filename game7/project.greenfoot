@@ -8,11 +8,7 @@ class.esa1.image=onigiri_character.png
 class.maru.image=wombat.png
 class.squid.image=character_fish_ika.png
 class.start.image=dohyo.jpeg
-<<<<<<< HEAD
-class.start_button.image=pngegg.png
-=======
 class.start_button.image=yellow-draught.png
->>>>>>> c42365781d0868eb1e72acfc943ff76ca494c83d
 dependency1.from=start
 dependency1.to=start_button
 dependency1.type=UsesDependency
@@ -25,7 +21,6 @@ dependency3.type=UsesDependency
 dependency4.from=MyWorld
 dependency4.to=esa1
 dependency4.type=UsesDependency
-<<<<<<< HEAD
 dependency5.from=start_button
 dependency5.to=MyWorld
 dependency5.type=UsesDependency
@@ -35,33 +30,13 @@ dependency6.type=UsesDependency
 dependency7.from=TARO
 dependency7.to=squid
 dependency7.type=UsesDependency
-=======
-dependency5.from=TARO
-dependency5.to=esa1
-dependency5.type=UsesDependency
-dependency6.from=TARO
-dependency6.to=squid
-dependency6.type=UsesDependency
-<<<<<<< HEAD
-editor.fx.0.height=0
-editor.fx.0.width=0
-editor.fx.0.x=0
-editor.fx.0.y=0
-=======
->>>>>>> c42365781d0868eb1e72acfc943ff76ca494c83d
 editor.fx.0.height=739
-editor.fx.0.width=816
+editor.fx.0.width=814
 editor.fx.0.x=579
 editor.fx.0.y=146
->>>>>>> 31989a48c1ec7332d6f7b980d79bce2f63c0b1b4
 height=1056
-<<<<<<< HEAD
 package.numDependencies=7
 package.numTargets=11
-=======
-package.numDependencies=6
-package.numTargets=10
->>>>>>> c42365781d0868eb1e72acfc943ff76ca494c83d
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -90,11 +65,11 @@ target10.type=ClassTarget
 target10.width=80
 target10.x=0
 target10.y=0
-target11.height=70
+target11.height=50
 target11.name=MyWorld
 target11.showInterface=false
 target11.type=ClassTarget
-target11.width=120
+target11.width=80
 target11.x=0
 target11.y=0
 target2.height=50
