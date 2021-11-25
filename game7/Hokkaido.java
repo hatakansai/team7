@@ -18,7 +18,7 @@ public class Hokkaido extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         
         super(800, 815, 1); 
-        addObject(new TARO(),55,50); 
+        addObject(new TARO(),50,50); 
         addObject(new squid(),700,750); 
         for( int x = 0 ; x<=815 ;x++){
         addObject(new wall(),x,0); 
@@ -35,6 +35,9 @@ public class Hokkaido extends World
   
         //maze wall part
         
+        for( int y = 0 ; y<=100 ;y++){
+        addObject(new wall(),100,y); 
+        }
         
         
         
@@ -44,7 +47,10 @@ public class Hokkaido extends World
         
         
         
-         
+        
+        
+        
+        // if hit wall re-set the food **not done
         for(int i = 0 ; i < 5  ; i++){  
 
         int A = 10; 
