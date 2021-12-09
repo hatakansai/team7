@@ -105,8 +105,18 @@ public class TARO extends Actor
             getWorld().showText("おめでとうございます！ステージクリアです\nボタンを押したら次のステージへ進めます。",400,405);
             }  
             
+<<<<<<< HEAD
           Actor wall = getOneIntersectingObject( wall.class );
         if( wall != null ){ 
+=======
+        Actor Mazewall = getOneIntersectingObject( Mazewall.class );
+        if( Mazewall!= null ){ 
+            setLocation(x,y); 
+         
+        }
+        Actor wall = getOneIntersectingObject( wall.class );
+        if( wall!= null ){ 
+>>>>>>> efadfe5d4cfab9f05bcbd33931c4825aa822e5bc
             setLocation(x,y); 
          
         } 
