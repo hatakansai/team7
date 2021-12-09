@@ -1,11 +1,7 @@
 #Greenfoot project file
 class.Bee.image=bee.png
-<<<<<<< HEAD
-class.Hokkaido.image=white_back.png
-class.Mazewall.image=map\ (2).png
-=======
 class.Hokkaido.image=ocean.jpg
->>>>>>> 875903cecc7be94079016d19051937b8a536b862
+class.Mazewall.image=map\ (2).png
 class.MyWorld.image=map\ (1).png
 class.TARO.image=sumo_rikishi_harite2.png
 class.ant.image=ant3.png
@@ -15,57 +11,37 @@ class.maru.image=wombat.png
 class.next_stage_prtal.image=button-red.png
 class.squid.image=character_fish_ika.png
 class.start.image=dohyo.jpeg
-<<<<<<< HEAD
-class.start_button.image=yellow-draught.png
-class.wall.image=wall.png
-dependency1.from=start
-dependency1.to=start_button
-=======
 class.start_button.image=pngwing.com.png
 class.wall.image=wall.png
 dependency1.from=Tutorial
 dependency1.to=TARO
->>>>>>> 875903cecc7be94079016d19051937b8a536b862
 dependency1.type=UsesDependency
-<<<<<<< HEAD
 dependency10.from=MyWorld
-dependency10.to=esa1
+dependency10.to=TARO
 dependency10.type=UsesDependency
-dependency11.from=next_stage_prtal
-dependency11.to=Hokkaido
-dependency11.type=UsesDependency
-dependency12.from=TARO
-dependency12.to=next_stage_prtal
-dependency12.type=UsesDependency
-dependency13.from=TARO
-dependency13.to=esa1
-dependency13.type=UsesDependency
-dependency14.from=TARO
-dependency14.to=squid
-dependency14.type=UsesDependency
-dependency15.from=start_button
-dependency15.to=Tutorial
-dependency15.type=UsesDependency
-dependency2.from=Tutorial
-dependency2.to=squid
-=======
-dependency10.from=TARO
-dependency10.to=esa1
-dependency10.type=UsesDependency
-dependency11.from=TARO
+dependency11.from=MyWorld
 dependency11.to=squid
 dependency11.type=UsesDependency
-<<<<<<< HEAD
-dependency12.from=start_button
-dependency12.to=Hokkaido
+dependency12.from=MyWorld
+dependency12.to=esa1
 dependency12.type=UsesDependency
-dependency2.from=Hokkaido
-dependency2.to=TARO
-=======
-dependency2.from=start
-dependency2.to=start_button
->>>>>>> 875903cecc7be94079016d19051937b8a536b862
->>>>>>> efadfe5d4cfab9f05bcbd33931c4825aa822e5bc
+dependency13.from=next_stage_prtal
+dependency13.to=Hokkaido
+dependency13.type=UsesDependency
+dependency14.from=TARO
+dependency14.to=next_stage_prtal
+dependency14.type=UsesDependency
+dependency15.from=TARO
+dependency15.to=esa1
+dependency15.type=UsesDependency
+dependency16.from=TARO
+dependency16.to=squid
+dependency16.type=UsesDependency
+dependency17.from=start_button
+dependency17.to=Tutorial
+dependency17.type=UsesDependency
+dependency2.from=Tutorial
+dependency2.to=squid
 dependency2.type=UsesDependency
 dependency3.from=Tutorial
 dependency3.to=esa1
@@ -74,65 +50,27 @@ dependency4.from=start
 dependency4.to=start_button
 dependency4.type=UsesDependency
 dependency5.from=Hokkaido
-<<<<<<< HEAD
 dependency5.to=TARO
 dependency5.type=UsesDependency
 dependency6.from=Hokkaido
-dependency6.to=wall
+dependency6.to=squid
 dependency6.type=UsesDependency
 dependency7.from=Hokkaido
-dependency7.to=esa1
+dependency7.to=wall
 dependency7.type=UsesDependency
-dependency8.from=MyWorld
-dependency8.to=TARO
+dependency8.from=Hokkaido
+dependency8.to=Mazewall
 dependency8.type=UsesDependency
-dependency9.from=MyWorld
-dependency9.to=squid
+dependency9.from=Hokkaido
+dependency9.to=esa1
 dependency9.type=UsesDependency
 editor.fx.0.height=1056
 editor.fx.0.width=1936
 editor.fx.0.x=-8
 editor.fx.0.y=-8
-height=1056
-package.numDependencies=15
-package.numTargets=14
-=======
-<<<<<<< HEAD
-dependency5.to=Mazewall
-=======
-dependency5.to=esa1
->>>>>>> 875903cecc7be94079016d19051937b8a536b862
-dependency5.type=UsesDependency
-dependency6.from=Hokkaido
-dependency6.to=esa1
-dependency6.type=UsesDependency
-dependency7.from=MyWorld
-dependency7.to=TARO
-dependency7.type=UsesDependency
-dependency8.from=MyWorld
-dependency8.to=squid
-dependency8.type=UsesDependency
-dependency9.from=MyWorld
-dependency9.to=esa1
-dependency9.type=UsesDependency
-<<<<<<< HEAD
-editor.fx.0.height=693
-editor.fx.0.width=816
-editor.fx.0.x=81
-editor.fx.0.y=176
-height=1004
-package.numDependencies=12
-package.numTargets=14
-=======
-editor.fx.0.height=1047
-editor.fx.0.width=974
-editor.fx.0.x=703
-editor.fx.0.y=210
 height=1055
-package.numDependencies=11
-package.numTargets=13
->>>>>>> 875903cecc7be94079016d19051937b8a536b862
->>>>>>> efadfe5d4cfab9f05bcbd33931c4825aa822e5bc
+package.numDependencies=17
+package.numTargets=15
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -155,48 +93,47 @@ target1.width=80
 target1.x=0
 target1.y=0
 target10.height=50
-target10.name=camel
+target10.name=esa1
 target10.showInterface=false
 target10.type=ClassTarget
 target10.width=80
 target10.x=0
 target10.y=0
 target11.height=50
-<<<<<<< HEAD
-target11.name=start_button
-=======
-<<<<<<< HEAD
-target11.name=start_button
-=======
-target11.name=squid
->>>>>>> 875903cecc7be94079016d19051937b8a536b862
->>>>>>> efadfe5d4cfab9f05bcbd33931c4825aa822e5bc
+target11.name=camel
 target11.showInterface=false
 target11.type=ClassTarget
-target11.width=90
+target11.width=80
 target11.x=0
 target11.y=0
 target12.height=50
-target12.name=squid
+target12.name=start_button
 target12.showInterface=false
 target12.type=ClassTarget
-target12.width=80
+target12.width=90
 target12.x=0
 target12.y=0
 target13.height=50
-target13.name=wall
+target13.name=squid
 target13.showInterface=false
 target13.type=ClassTarget
 target13.width=80
 target13.x=0
 target13.y=0
 target14.height=50
-target14.name=MyWorld
+target14.name=wall
 target14.showInterface=false
 target14.type=ClassTarget
 target14.width=80
 target14.x=0
 target14.y=0
+target15.height=50
+target15.name=MyWorld
+target15.showInterface=false
+target15.type=ClassTarget
+target15.width=80
+target15.x=0
+target15.y=0
 target2.height=50
 target2.name=Bee
 target2.showInterface=false
@@ -233,43 +170,28 @@ target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
-<<<<<<< HEAD
-target7.name=next_stage_prtal
-=======
 target7.name=Hokkaido
->>>>>>> efadfe5d4cfab9f05bcbd33931c4825aa822e5bc
 target7.showInterface=false
 target7.type=ClassTarget
 target7.width=110
 target7.x=0
 target7.y=0
 target8.height=50
-target8.name=TARO
+target8.name=next_stage_prtal
 target8.showInterface=false
 target8.type=ClassTarget
-target8.width=80
+target8.width=110
 target8.x=0
 target8.y=0
 target9.height=50
-target9.name=esa1
+target9.name=TARO
 target9.showInterface=false
 target9.type=ClassTarget
 target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-<<<<<<< HEAD
-width=1102
-world.lastInstantiated=start
-xPosition=806
-yPosition=0
-=======
 width=1936
-world.lastInstantiated=start
+world.lastInstantiated=Hokkaido
 xPosition=0
-<<<<<<< HEAD
-yPosition=0
-=======
 yPosition=1
->>>>>>> 875903cecc7be94079016d19051937b8a536b862
->>>>>>> efadfe5d4cfab9f05bcbd33931c4825aa822e5bc
