@@ -1,7 +1,11 @@
 #Greenfoot project file
 class.Bee.image=bee.png
+<<<<<<< HEAD
 class.Hokkaido.image=white_back.png
 class.Mazewall.image=map\ (2).png
+=======
+class.Hokkaido.image=ocean.jpg
+>>>>>>> 875903cecc7be94079016d19051937b8a536b862
 class.MyWorld.image=map\ (1).png
 class.TARO.image=sumo_rikishi_harite2.png
 class.ant.image=ant3.png
@@ -10,10 +14,17 @@ class.esa1.image=onigiri_character.png
 class.maru.image=wombat.png
 class.squid.image=character_fish_ika.png
 class.start.image=dohyo.jpeg
+<<<<<<< HEAD
 class.start_button.image=yellow-draught.png
 class.wall.image=wall.png
 dependency1.from=start
 dependency1.to=start_button
+=======
+class.start_button.image=pngwing.com.png
+class.wall.image=wall.png
+dependency1.from=Tutorial
+dependency1.to=TARO
+>>>>>>> 875903cecc7be94079016d19051937b8a536b862
 dependency1.type=UsesDependency
 dependency10.from=TARO
 dependency10.to=esa1
@@ -21,20 +32,29 @@ dependency10.type=UsesDependency
 dependency11.from=TARO
 dependency11.to=squid
 dependency11.type=UsesDependency
+<<<<<<< HEAD
 dependency12.from=start_button
 dependency12.to=Hokkaido
 dependency12.type=UsesDependency
 dependency2.from=Hokkaido
 dependency2.to=TARO
+=======
+dependency2.from=start
+dependency2.to=start_button
+>>>>>>> 875903cecc7be94079016d19051937b8a536b862
 dependency2.type=UsesDependency
 dependency3.from=Hokkaido
-dependency3.to=squid
+dependency3.to=TARO
 dependency3.type=UsesDependency
 dependency4.from=Hokkaido
 dependency4.to=wall
 dependency4.type=UsesDependency
 dependency5.from=Hokkaido
+<<<<<<< HEAD
 dependency5.to=Mazewall
+=======
+dependency5.to=esa1
+>>>>>>> 875903cecc7be94079016d19051937b8a536b862
 dependency5.type=UsesDependency
 dependency6.from=Hokkaido
 dependency6.to=esa1
@@ -48,6 +68,7 @@ dependency8.type=UsesDependency
 dependency9.from=MyWorld
 dependency9.to=esa1
 dependency9.type=UsesDependency
+<<<<<<< HEAD
 editor.fx.0.height=693
 editor.fx.0.width=816
 editor.fx.0.x=81
@@ -55,6 +76,15 @@ editor.fx.0.y=176
 height=1004
 package.numDependencies=12
 package.numTargets=14
+=======
+editor.fx.0.height=1047
+editor.fx.0.width=974
+editor.fx.0.x=703
+editor.fx.0.y=210
+height=1055
+package.numDependencies=11
+package.numTargets=13
+>>>>>>> 875903cecc7be94079016d19051937b8a536b862
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -84,7 +114,11 @@ target10.width=80
 target10.x=0
 target10.y=0
 target11.height=50
+<<<<<<< HEAD
 target11.name=start_button
+=======
+target11.name=squid
+>>>>>>> 875903cecc7be94079016d19051937b8a536b862
 target11.showInterface=false
 target11.type=ClassTarget
 target11.width=90
@@ -168,7 +202,14 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
 width=1102
 world.lastInstantiated=start
 xPosition=806
 yPosition=0
+=======
+width=1936
+world.lastInstantiated=Hokkaido
+xPosition=0
+yPosition=1
+>>>>>>> 875903cecc7be94079016d19051937b8a536b862

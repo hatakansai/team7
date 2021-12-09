@@ -18,8 +18,18 @@ public class Hokkaido extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
 
         super(800, 815, 1); 
+<<<<<<< HEAD
         addObject(new TARO(),48,48); 
         addObject(new squid(),750,770); 
+=======
+        addObject(new TARO(),50,50); 
+        addObject(new squid(),750,770); 
+        GreenfootImage image = getBackground();  
+        image.scale(800, 1500);
+       
+        setBackground(image);
+        
+>>>>>>> 875903cecc7be94079016d19051937b8a536b862
         for( int x = 0 ; x<=815 ;x++){
             addObject(new wall(),x,0);  
         }
@@ -79,6 +89,22 @@ public class Hokkaido extends World
         for( int y = 380 ; y<=490 ;y++){
             addObject(new Mazewall(),701,y); //15
         }
+<<<<<<< HEAD
+=======
+  
+        //maze wall part
+        
+        for( int y = 0 ; y<=100 ;y++){
+        addObject(new wall(),100,y); 
+        }
+        
+        
+        
+        
+        
+        
+        
+>>>>>>> 875903cecc7be94079016d19051937b8a536b862
         
         //maze horizontal wall part
         for( int x = 110 ; x<=240 ;x++){
@@ -165,6 +191,7 @@ public class Hokkaido extends World
 
         
         
+<<<<<<< HEAD
         for(int i = 0 ; i < 5  ; i++){  
             int A = 10; 
             int B = 750; 
@@ -173,6 +200,28 @@ public class Hokkaido extends World
             int y = B - (int)(Math.random()*((B-A)+1)); 
             addObject(new esa1(),x,y); 
         }
+=======
+        // if hit wall re-set the food **not done
+        for(int i = 0 ; i < 5  ; i++){  
+
+        int A = 10; 
+
+        int B = 750; 
+
+        int x = A + (int)(Math.random()*((B-A)+1)); 
+
+        B= 450; 
+
+        int y = B - (int)(Math.random()*((B-A)+1)); 
+
+        addObject(new esa1(),x,y); 
+        
+    }
+    
+    }
+    
+ 
+>>>>>>> 875903cecc7be94079016d19051937b8a536b862
     }
 }
 
