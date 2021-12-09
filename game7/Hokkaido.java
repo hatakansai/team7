@@ -19,8 +19,9 @@ public class Hokkaido extends World
         
         super(800, 815, 1); 
         addObject(new TARO(),50,50); 
+        addObject(new squid(),750,770); 
         GreenfootImage image = getBackground();  
-        image.scale(1000, 1000);
+        image.scale(800, 1500);
        
         setBackground(image);
         

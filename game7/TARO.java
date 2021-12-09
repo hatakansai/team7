@@ -15,7 +15,7 @@ import greenfoot.*;
 public class TARO extends Actor 
 
 { 
-    int pt = 0;
+    public int pt = 0;
   
 
     /** 
