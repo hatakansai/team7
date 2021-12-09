@@ -98,7 +98,12 @@ public class TARO extends Actor
             
             }  
             
-                Actor wall = getOneIntersectingObject( wall.class );
+        Actor Mazewall = getOneIntersectingObject( Mazewall.class );
+        if( Mazewall!= null ){ 
+            setLocation(x,y); 
+         
+        }
+        Actor wall = getOneIntersectingObject( wall.class );
         if( wall!= null ){ 
             setLocation(x,y); 
          
