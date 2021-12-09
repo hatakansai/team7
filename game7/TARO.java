@@ -16,7 +16,6 @@ public class TARO extends Actor
 
 { 
     public int pt = 0;
-  
 
     /** 
 
@@ -84,27 +83,37 @@ public class TARO extends Actor
         
             } 
               Actor actor = getOneIntersectingObject( esa1.class ); 
+              //Actor portal = getOneIntersectingObject( next_stage_prtal.class ); 
+              Actor boss = getOneIntersectingObject( squid.class );
+        /*if( portal != null ){ 
+            
+            getWorld().removeObject(actor);
+            
+            }*/   
 
         if( actor != null ){ 
             pt++;
             getWorld().removeObject(actor);
             
             }   
-        Actor boss = getOneIntersectingObject( squid.class );
+   
         if( boss!= null ){ 
             setLocation(x,y); 
             if(pt==5)
             getWorld().removeObject(boss);
-            
+            getWorld().addObject(new next_stage_prtal() , 750,770);
+            getWorld().showText("おめでとうございます！ステージクリアです\nボタンを押したら次のステージへ進めます。",400,405);
             }  
             
-                Actor wall = getOneIntersectingObject( wall.class );
-        if( wall!= null ){ 
+          Actor wall = getOneIntersectingObject( wall.class );
+        if( wall != null ){ 
             setLocation(x,y); 
          
         } 
-
-    } 
+        
+    }
 }
+    
+
 
  
