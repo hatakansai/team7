@@ -86,15 +86,7 @@ public class Hokkaido extends World
             addObject(new Mazewall(),701,y); //15
         }
 
-  
-        //maze wall part
-
-        for( int y = 0 ; y<=100 ;y++){
-            addObject(new wall(),100,y); 
-        }
-
-        
-        
+      
         
         
         //maze horizontal wall part
@@ -180,7 +172,6 @@ public class Hokkaido extends World
             addObject(new Mazewall(),621,y);  //m4
         }
 
-      
         for(int i = 0 ; i < 5  ; i++){  
             int A = 10; 
             int B = 750; 
@@ -214,7 +205,5 @@ public class Hokkaido extends World
         
     }
 
-  
 }
-
 
