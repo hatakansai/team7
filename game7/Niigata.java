@@ -1,28 +1,28 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Hokkaido here.
+ * Write a description of class Niigata here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Hokkaido extends World
+public class Niigata extends World
 {
 
     /**
-     * Constructor for objects of class Hokkaido.
+     * Constructor for objects of class Niigata.
      * 
      */
-    public Hokkaido()
+    public Niigata()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        int j = 0;
+
         super(800, 815, 1); 
 
         addObject(new TARO(),50,50); 
         addObject(new squid(),750,770); 
         GreenfootImage image = getBackground();  
-        image.scale(800, 1500);
+        image.scale(1200, 2000);
 
         setBackground(image);
 
@@ -191,8 +191,6 @@ public class Hokkaido extends World
         }
 
         // if hit wall re-set the food **not done
-        while( j <= 10){
-            
         for(int i = 0 ; i < 5  ; i++){  
 
             int A = 10; 
@@ -206,12 +204,9 @@ public class Hokkaido extends World
             int y = B - (int)(Math.random()*((B-A)+1)); 
 
             addObject(new esa1(),x,y); 
+
         }
-               
-            
-        }
-        
-        
+
     }
 
   

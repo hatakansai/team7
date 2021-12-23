@@ -21,7 +21,12 @@ public class TARO extends Actor
      * Act - do whatever the TARO wants to do. This method is called whenever the 'Act' or 'Run' button gets pressed in the environment. 
 
      */ 
-
+    public TARO()
+    {    
+        GreenfootImage image = getImage();  
+        image.scale(50, 50);
+        setImage(image);
+    }
 
 
     public void act() 
