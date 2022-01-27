@@ -131,15 +131,6 @@ dependency8.type=UsesDependency
 dependency9.from=Hokkaido
 dependency9.to=esa1
 dependency9.type=UsesDependency
-<<<<<<< HEAD
-editor.fx.0.height=739
-editor.fx.0.width=816
-editor.fx.0.x=718
-editor.fx.0.y=113
-height=1000
-package.numDependencies=24
-package.numTargets=16
-=======
 editor.fx.0.height=1047
 editor.fx.0.width=974
 editor.fx.0.x=448
@@ -147,7 +138,6 @@ editor.fx.0.y=4
 height=1056
 package.numDependencies=37
 package.numTargets=21
->>>>>>> f0a8be871d4e7d0a98d65b92ff0c91e1ec8e8b16
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -310,14 +300,7 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
-<<<<<<< HEAD
-width=1082
-world.lastInstantiated=Niigata
-xPosition=577
-yPosition=22
-=======
 width=1936
-world.lastInstantiated=Edo
+world.lastInstantiated=start
 xPosition=0
 yPosition=0
->>>>>>> f0a8be871d4e7d0a98d65b92ff0c91e1ec8e8b16

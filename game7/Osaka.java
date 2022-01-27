@@ -18,6 +18,7 @@ public class Osaka extends World
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
 
         super(800, 815, 1); 
+        int timer1 = 1000;
 
         addObject(new TARO(),50,50); 
         addObject(new angry(),750,770); 
@@ -86,16 +87,11 @@ public class Osaka extends World
             addObject(new Mazewall(),701,y); //15
         }
 
-  
         //maze wall part
-
         for( int y = 0 ; y<=100 ;y++){
             addObject(new wall(),100,y); 
         }
 
-        
-        
-        
         
         //maze horizontal wall part
         for( int x = 110 ; x<=240 ;x++){
@@ -180,8 +176,7 @@ public class Osaka extends World
             addObject(new Mazewall(),621,y);  //m4
         }
 
-      
-        for(int i = 0 ; i < 5  ; i++){  
+        for(int i = 0 ; i < 10  ; i++){  
             int A = 10; 
             int B = 750; 
             int x = A + (int)(Math.random()*((B-A)+1)); 
@@ -189,27 +184,9 @@ public class Osaka extends World
             int y = B - (int)(Math.random()*((B-A)+1)); 
             addObject(new esa1(),x,y); 
         }
-
-        // if hit wall re-set the food **not done
-        for(int i = 0 ; i < 5  ; i++){  
-
-            int A = 10; 
-
-            int B = 750; 
-
-            int x = A + (int)(Math.random()*((B-A)+1)); 
-
-            B= 450; 
-
-            int y = B - (int)(Math.random()*((B-A)+1)); 
-
-            addObject(new esa1(),x,y); 
-
-        }
+  
 
     }
 
-  
 }
-
 
