@@ -1,18 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class squid here.
+ * Write a description of class farmer here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class squid extends Actor
+public class farmer extends Actor
 {
     /**
-     * Act - do whatever the squid wants to do. This method is called whenever
+     * Act - do whatever the farmer wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-      public squid()
+    public farmer()
     {    
         GreenfootImage image = getImage();  
         image.scale(70, 70);

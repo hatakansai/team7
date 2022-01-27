@@ -38,7 +38,7 @@ public class TARO extends Actor
         getWorld().showText("ポイント："+pt,500,20); 
         if( Greenfoot.isKeyDown( "right" ) ){ 
 
-            setLocation(x+4,y); 
+            setLocation(x+5,y); 
 
 
         } 
@@ -46,7 +46,7 @@ public class TARO extends Actor
 
         else if( Greenfoot.isKeyDown( "down" ) ){ 
 
-            setLocation(x,y+4); 
+            setLocation(x,y+5); 
 
 
         } 
@@ -54,7 +54,7 @@ public class TARO extends Actor
 
         else if( Greenfoot.isKeyDown( "left" ) ){ 
 
-            setLocation(x-4,y); 
+            setLocation(x-5,y); 
 
 
         } 
@@ -62,24 +62,17 @@ public class TARO extends Actor
 
         else if( Greenfoot.isKeyDown( "up" ) ){ 
 
-            setLocation(x,y-4); 
+            setLocation(x,y-5); 
 
-            if( Greenfoot.isKeyDown( "a" ) ){ 
-
-                getWorld().showText("Hello",150,50);} 
-
-            if( Greenfoot.isKeyDown( "s" ) ){ 
-
-                getWorld().showText("Konnitiwa",150,50);} 
-
-            if( Greenfoot.isKeyDown( "d" ) ){ 
-
-                getWorld().showText("",150,50);} 
+      
 
         } 
         Actor actor = getOneIntersectingObject( esa1.class ); 
         //Actor portal = getOneIntersectingObject( next_stage_prtal.class ); 
-        Actor boss = getOneIntersectingObject( squid.class );
+        Actor squid = getOneIntersectingObject( squid.class );
+        Actor yokozuna = getOneIntersectingObject( yokozuna.class );
+        Actor farmer = getOneIntersectingObject( farmer.class );
+        Actor angry = getOneIntersectingObject( angry.class );
         /*if( portal != null ){ 
 
         getWorld().removeObject(actor);
@@ -92,12 +85,42 @@ public class TARO extends Actor
 
         }   
 
-        if( boss!= null ){ 
-            setLocation(x,y); 
-            if(pt==5)
-                getWorld().removeObject(boss);
+        if( squid!= null   ){ 
+            setLocation(x,y);   
+            
+            if(pt>5){
+                getWorld().removeObject(squid);
             getWorld().addObject(new next_stage_prtal() , 750,770);
-            getWorld().showText("おめでとうございます！ステージクリアです\nボタンを押したら次のステージへ進めます。",400,405);
+            getWorld().showText("おめでとうございます！ステージクリアです\nボタンを押したら次のステージへ進めます。",400,405);}
+            
+        }  
+        if( farmer!= null   ){ 
+            setLocation(x,y);   
+            
+            if(pt>5){
+                getWorld().removeObject(farmer);
+            getWorld().addObject(new next_stage_prtal() , 750,770);
+            getWorld().showText("おめでとうございます！ステージクリアです\nボタンを押したら次のステージへ進めます。",400,405);}
+            
+        }  
+        if( angry!= null   ){ 
+            setLocation(x,y);   
+            
+            if(pt>5){
+                getWorld().removeObject(angry);
+            getWorld().addObject(new next_stage_prtal() , 750,770);
+            getWorld().showText("おめでとうございます！ステージクリアです\nボタンを押したら次のステージへ進めます。",400,405);}
+            
+        }  
+        if( yokozuna!= null  ){ 
+            setLocation(x,y);   
+            
+            if(pt>5){
+                getWorld().removeObject(yokozuna);
+            getWorld().addObject(new next_stage_prtal() , 750,770);
+            getWorld().showText("おめでとうございます！ステージクリアです\nボタンを押したら次のステージへ進めます。",400,405);}
+           
+            
         }  
 
         Actor wall = getOneIntersectingObject( wall.class );
