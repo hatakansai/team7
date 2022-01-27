@@ -88,7 +88,7 @@ public class TARO extends Actor
         if( squid!= null   ){ 
             setLocation(x,y);   
             
-            if(pt>5){
+            if(pt>4){
                 getWorld().removeObject(squid);
             getWorld().addObject(new next_stage_prtal() , 750,770);
             getWorld().showText("おめでとうございます！ステージクリアです\nボタンを押したら次のステージへ進めます。",400,405);}
@@ -97,7 +97,7 @@ public class TARO extends Actor
         if( farmer!= null   ){ 
             setLocation(x,y);   
             
-            if(pt>5){
+            if(pt>4){
                 getWorld().removeObject(farmer);
             getWorld().addObject(new next_stage_prtal() , 750,770);
             getWorld().showText("おめでとうございます！ステージクリアです\nボタンを押したら次のステージへ進めます。",400,405);}
@@ -106,7 +106,7 @@ public class TARO extends Actor
         if( angry!= null   ){ 
             setLocation(x,y);   
             
-            if(pt>5){
+            if(pt>4){
                 getWorld().removeObject(angry);
             getWorld().addObject(new next_stage_prtal() , 750,770);
             getWorld().showText("おめでとうございます！ステージクリアです\nボタンを押したら次のステージへ進めます。",400,405);}
@@ -115,10 +115,11 @@ public class TARO extends Actor
         if( yokozuna!= null  ){ 
             setLocation(x,y);   
             
-            if(pt>5){
+            if(pt>4){
                 getWorld().removeObject(yokozuna);
-            getWorld().addObject(new next_stage_prtal() , 750,770);
-            getWorld().showText("おめでとうございます！ステージクリアです\nボタンを押したら次のステージへ進めます。",400,405);}
+           
+            getWorld().showText("おめでとうございます！ゲームクリアです！\n貴方は横綱だ！",400,405);
+        }
            
             
         }  

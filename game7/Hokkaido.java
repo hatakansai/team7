@@ -182,26 +182,9 @@ public class Hokkaido extends World
             addObject(new esa1(),x,y); 
         }
 
-        // if hit wall re-set the food **not done
-        while( j <= 10){
+         
             
-        for(int i = 0 ; i < 5  ; i++){  
-
-            int A = 10; 
-
-            int B = 750; 
-
-            int x = A + (int)(Math.random()*((B-A)+1)); 
-
-            B= 450; 
-
-            int y = B - (int)(Math.random()*((B-A)+1)); 
-
-            addObject(new esa1(),x,y); 
-        }
-               
-            
-        }
+        
         
         
     }
