@@ -1,2 +1,1 @@
-SUMO-CHAN
-Online Manual
+SUMO-CHAN_Online Manual
