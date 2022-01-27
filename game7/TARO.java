@@ -38,7 +38,7 @@ public class TARO extends Actor
         getWorld().showText("ポイント："+pt,500,20); 
         if( Greenfoot.isKeyDown( "right" ) ){ 
 
-            setLocation(x+4,y); 
+            setLocation(x+6,y); 
 
 
         } 
@@ -46,7 +46,7 @@ public class TARO extends Actor
 
         else if( Greenfoot.isKeyDown( "down" ) ){ 
 
-            setLocation(x,y+4); 
+            setLocation(x,y+6); 
 
 
         } 
@@ -54,7 +54,7 @@ public class TARO extends Actor
 
         else if( Greenfoot.isKeyDown( "left" ) ){ 
 
-            setLocation(x-4,y); 
+            setLocation(x-6,y); 
 
 
         } 
@@ -62,7 +62,7 @@ public class TARO extends Actor
 
         else if( Greenfoot.isKeyDown( "up" ) ){ 
 
-            setLocation(x,y-4); 
+            setLocation(x,y-6); 
 
             if( Greenfoot.isKeyDown( "a" ) ){ 
 

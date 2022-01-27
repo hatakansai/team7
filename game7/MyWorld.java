@@ -25,7 +25,8 @@ public class MyWorld extends World
             int x = A + (int)(Math.random()*((B-A)+1)); 
             B= 450; 
             int y = B - (int)(Math.random()*((B-A)+1)); 
-            addObject(new esa1(),x,y); 
+            addObject(new esa1(),x,y);
+           
         }
     }
 }
