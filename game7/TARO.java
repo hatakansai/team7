@@ -38,11 +38,9 @@ public class TARO extends Actor
         getWorld().showText("ポイント："+pt,500,20); 
         if( Greenfoot.isKeyDown( "right" ) ){ 
 
-<<<<<<< HEAD
+
             setLocation(x+6,y); 
-=======
-            setLocation(x+5,y); 
->>>>>>> f0a8be871d4e7d0a98d65b92ff0c91e1ec8e8b16
+
 
 
         } 
@@ -50,11 +48,10 @@ public class TARO extends Actor
 
         else if( Greenfoot.isKeyDown( "down" ) ){ 
 
-<<<<<<< HEAD
+
             setLocation(x,y+6); 
-=======
-            setLocation(x,y+5); 
->>>>>>> f0a8be871d4e7d0a98d65b92ff0c91e1ec8e8b16
+
+
 
 
         } 
@@ -62,11 +59,10 @@ public class TARO extends Actor
 
         else if( Greenfoot.isKeyDown( "left" ) ){ 
 
-<<<<<<< HEAD
+
             setLocation(x-6,y); 
-=======
-            setLocation(x-5,y); 
->>>>>>> f0a8be871d4e7d0a98d65b92ff0c91e1ec8e8b16
+
+
 
 
         } 
@@ -74,13 +70,19 @@ public class TARO extends Actor
 
         else if( Greenfoot.isKeyDown( "up" ) ){ 
 
-<<<<<<< HEAD
+
             setLocation(x,y-6); 
-=======
-            setLocation(x,y-5); 
->>>>>>> f0a8be871d4e7d0a98d65b92ff0c91e1ec8e8b16
+  
 
       
+
+        } 
+         if( Greenfoot.isKeyDown( "escape" ) ){ 
+
+
+            Greenfoot.setWorld(new start());
+
+
 
         } 
         Actor actor = getOneIntersectingObject( esa1.class ); 
