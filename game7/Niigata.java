@@ -20,7 +20,7 @@ public class Niigata extends World
         super(800, 815, 1); 
 
         addObject(new TARO(),50,50); 
-        addObject(new squid(),750,770); 
+        addObject(new farmer(),750,770); 
         GreenfootImage image = getBackground();  
         image.scale(1200, 2000);
 

@@ -1,42 +1,33 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Hokkaido here.
+ * Write a description of class Niigata here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Hokkaido extends World
+public class Edo extends World
 {
 
     /**
-     * Constructor for objects of class Hokkaido.
+     * Constructor for objects of class Niigata.
      * 
      */
-    public Hokkaido()        
-    {  
-
+    public Edo()
+    {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-<<<<<<< HEAD
 
-        super(800,815,1); 
-        int j = 0;
-        int[][] wallArray = {};
-=======
-        
-        super(800, 815, 1);
-        int j = 0;
->>>>>>> f0a8be871d4e7d0a98d65b92ff0c91e1ec8e8b16
+        super(800, 815, 1); 
 
         addObject(new TARO(),50,50); 
-        addObject(new squid(),750,770); 
+        addObject(new yokozuna(),750,770); 
         GreenfootImage image = getBackground();  
-        image.scale(800, 1500);
+        image.scale(800, 1000);
 
         setBackground(image);
 
         for( int x = 0 ; x<=815 ;x++){
-            addObject(new wall(),x,0);
+            addObject(new wall(),x,0);  
         }
         for( int x = 0 ; x<=815 ;x++){
             addObject(new wall(),x,815);  
@@ -95,6 +86,17 @@ public class Hokkaido extends World
             addObject(new Mazewall(),701,y); //15
         }
 
+  
+        //maze wall part
+
+        for( int y = 0 ; y<=100 ;y++){
+            addObject(new wall(),100,y); 
+        }
+
+        
+        
+        
+        
         //maze horizontal wall part
         for( int x = 110 ; x<=240 ;x++){
             addObject(new wall(),x,90);  //p1
@@ -178,30 +180,36 @@ public class Hokkaido extends World
             addObject(new Mazewall(),621,y);  //m4
         }
 
-<<<<<<< HEAD
-        for(int i = 0 ; i < 10  ; i++){  
-            int A = 10; 
-            int B = 750; 
-            int x = A + (int)(Math.random()*((B-A)+1));
-=======
+      
         for(int i = 0 ; i < 5  ; i++){  
             int A = 10; 
             int B = 750; 
             int x = A + (int)(Math.random()*((B-A)+1)); 
->>>>>>> f0a8be871d4e7d0a98d65b92ff0c91e1ec8e8b16
             B= 450; 
             int y = B - (int)(Math.random()*((B-A)+1)); 
             addObject(new esa1(),x,y); 
         }
-<<<<<<< HEAD
-=======
 
-         
-            
-        
-        
->>>>>>> f0a8be871d4e7d0a98d65b92ff0c91e1ec8e8b16
-        
+        // if hit wall re-set the food **not done
+        for(int i = 0 ; i < 5  ; i++){  
+
+            int A = 10; 
+
+            int B = 750; 
+
+            int x = A + (int)(Math.random()*((B-A)+1)); 
+
+            B= 450; 
+
+            int y = B - (int)(Math.random()*((B-A)+1)); 
+
+            addObject(new esa1(),x,y); 
+
+        }
+
     }
+
+  
 }
+
 
