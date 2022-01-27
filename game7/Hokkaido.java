@@ -17,10 +17,19 @@ public class Hokkaido extends World
     {  
 
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 65e40d208afcbd91c1222183f6a158eae7a12f10
 
         super(800,815,1); 
         int j = 0;
         int[][] wallArray = {};
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 65e40d208afcbd91c1222183f6a158eae7a12f10
 
         addObject(new TARO(),50,50); 
         addObject(new squid(),750,770); 
@@ -172,6 +181,7 @@ public class Hokkaido extends World
             addObject(new Mazewall(),621,y);  //m4
         }
 
+<<<<<<< HEAD
         for(int i = 0 ; i < 10  ; i++){  
 
             int A = 10; 
@@ -182,6 +192,27 @@ public class Hokkaido extends World
             addObject(new esa1(),x,y); 
 
         }
+=======
+
+        for(int i = 0 ; i < 10  ; i++){  
+            int A = 10; 
+            int B = 750; 
+            int x = A + (int)(Math.random()*((B-A)+1));
+
+        
+            B= 450; 
+            int y = B - (int)(Math.random()*((B-A)+1)); 
+            addObject(new esa1(),x,y); 
+        }
+
+
+         
+            
+        
+        
+
+        
+>>>>>>> 65e40d208afcbd91c1222183f6a158eae7a12f10
     }
 }
 
